@@ -1,0 +1,31 @@
+name: smart_tracker
+description: A modern smart wearable health tracker app built with Flutter and Dart.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  provider: ^6.0.5
+  shared_preferences: ^2.0.15
+  intl: ^0.17.0
+  uuid: ^4.0.0
+  path_provider: ^2.0.15
+  sqflite: ^2.2.8+3
+  fl_chart: ^0.66.0
+  flutter_local_notifications: ^17.2.1+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
